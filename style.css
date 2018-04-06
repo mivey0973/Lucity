@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+font styles ------------------------------
+*/
+
+h1 {
+	font-family: 'Montserrat'
+	, sans-serif;
+	font-size: 20px;
+	color: #000;
+	text-align:center
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #000;
+	text-align:center
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	color: #000;
+}
+
+/*
+form container -------------------------------
+*/
+
+.formbox {
+	width: 320px;
+	border-radius:12px;
+	border-color:#000;
+	background-color:#137866;
+	border-width:thin;
+	box-shadow: 10px 10px 5px #CCC;
+	margin: 0 auto;
+	padding:10px;
+	line-height:2.5;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color:#fff;
+}
+
+input {
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	width:210px
+
+}
+
+input[type=radio] {
+	margin: 0 10px 0 5px;
+	width: auto
+}
+
+.button {
+	margin:10px;
+	padding:5px 10px;
+	border-radius:8px;
+	font-family: 'Montserrat', sans-serif;
+	width:auto
+}
+	
+/*
+Device Responsiveness
+*/
+
